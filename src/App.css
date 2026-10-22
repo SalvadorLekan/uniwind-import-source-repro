@@ -1,0 +1,18 @@
+@import 'tailwindcss' source('./');
+@import 'uniwind';
+
+@layer theme {
+    :root {
+        @variant dark {
+            --color-background: black;
+        }
+
+        @variant light {
+            --color-background: white;
+        }
+
+        @variant premium {
+            --color-background: gold;
+        }
+    }
+}
